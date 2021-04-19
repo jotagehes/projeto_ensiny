@@ -114,13 +114,8 @@
     line-height: 2rem;
     margin: 0 7rem 15rem;
 }
-.depoimentos__textos--one{
-    /*removi daqui*/
-}
 .depoimentos__textos--two{
     padding-bottom: 0.5rem;
-}
-.depoimentos__textos--three{
 }
 .depoimentos__maria{
     background-color: var(--roxoclaro);
