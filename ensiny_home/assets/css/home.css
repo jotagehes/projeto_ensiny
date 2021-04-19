@@ -9,41 +9,6 @@
     --goiabaclaro: #FBEBEB;
 
 }
-
-.cabecalho {
-    height: 10rem;
-}
-
-.logo{
-    color: var(--azul);
-    font-family: var(--logo);
-    font-size: 3rem;
-    font-weight: 500;
-    padding-left: 2.5rem;
-}
-
-.container__logo {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 0.75rem;
-
-}
-
-.menu__lista {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.menu__item--link {
-    color: var(--azul);
-    font-family: var(--corpo);
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding: 1.5rem;
-
-}
-
 .depoimentos__textos,
 .texto__descricao {
     color: var(--cortexto);
@@ -78,13 +43,6 @@
     font-family: var(--corpo);
     margin: 2rem;
     padding: 1rem 3rem;
-}
-
-.livros {
-    display: flex;
-    float: left;
-    padding-left: 2.5rem;
-    padding-top: 0.5rem;
 }
 
 .first {
@@ -185,40 +143,4 @@
 }
 .depoimentos__img{
     padding-left: 2rem;
-}
-.rodape{
-    background-color: var(--azul);
-    height: 12rem;
-    width: 100vw;
-}
-.rodape__flex--logo{
-    color: #FFFFFF;
-    font-family: var(--logo);
-    font-size: 3rem;
-    font-weight: 500;
-    padding: 4rem 2.5rem 2.5rem 10rem;
-}
-.rodape__flex{
-    display: flex;
-}
-.container__01{
-    display: flex;
-    flex-direction: column;
-    padding-left: 10rem;
-}
-.container__02{
-    display: flex;
-    flex-direction: column;
-    padding-left: 4rem;
-}
-.rodape__icone{
-    color: #FDFDFD;
-    font-family: var(--corpo);
-    font-weight: 600;
-    padding: 1rem;
-}
-.container__03{
-    display: flex;
-    flex-direction: column;
-    padding-left: 5rem;
 }
