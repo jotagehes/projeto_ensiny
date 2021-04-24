@@ -1,0 +1,211 @@
+:root {
+    --azul: #03658C;
+    --corpo: 'Montserrat', sans-serif;
+    --cortexto: #5B5B5B;
+    --cortitulo: #373737;
+    --logo: 'pirouregular';
+    --roxoclaro: #EAEDFB;
+    --rosaclaro: #F1E4F6;
+    --goiabaclaro: #FBEBEB;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.geral {
+    display: flex;
+    margin: 0rem 5rem 0rem 0rem;
+    padding: 0.50rem;
+    height: 59.075rem;
+    border-radius: 3rem;
+}
+
+.input2 {
+    background: white;
+    padding: 1rem 18rem;
+    margin-left: 2.5rem;
+    border-radius: 3rem;
+    border: none;
+    text-align: center;
+    width: 90%;
+    align-content: center;
+}
+
+.input3 {
+    background: white;
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem 1rem 0 0;
+    border: none;
+    text-align: center;
+    width: 12%;
+    justify-items: flex-end;
+    margin-bottom: 0;
+    margin-left: 9rem;
+}
+
+.dados_cadasrais {
+    display: block;
+    padding-left: 7rem;
+}
+
+.botao__editar {
+    color: #FDFDFD;
+    background: #03658C;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    width: 30%;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.sexo {
+    text-align: center;
+}
+
+.cont_cadastrais {
+    margin: 5rem 5rem 5rem 0rem;
+    padding: 3rem;
+    height: 57.075rem;
+    border-radius: 3rem;
+    background: #b8d4df;
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+}
+
+.perfil_usuario {
+    margin: 0rem 5rem 5rem 0rem;
+    padding: 3rem;
+    height: 35rem;
+    width: 27rem;
+    border-radius: 3rem;
+    background: #b8d4df;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil_usuario .botao__editar {
+    width: 18rem;
+}
+
+.exlusao_conta {
+    margin: 5rem 5rem 5rem 0rem;
+    padding: 3rem;
+    width: 26rem;
+    height: 35rem;
+    border-radius: 3rem;
+    background: #b8d4df;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 6rem;
+}
+
+.excluir_conta {
+    color: #FDFDFD;
+    background: #03658C;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__item--link {
+    color: var(--azul);
+    font-family: var(--corpo);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1.5rem;
+}
+
+.logo {
+    color: var(--azul);
+    font-family: var(--logo);
+    font-size: 3rem;
+    font-weight: 500;
+    padding-left: 2.5rem;
+}
+
+.container__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+
+.cabecalho {
+    height: 6rem;
+}
+
+.livros {
+    display: flex;
+    float: left;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+.rodape {
+    background-color: var(--azul);
+    height: 12rem;
+    width: 100vw;
+}
+
+.rodape__flex--logo {
+    color: #FFFFFF;
+    font-family: var(--logo);
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 4rem 2.5rem 2.5rem 10rem;
+}
+
+.rodape__flex {
+    display: flex;
+}
+
+.container__01 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+
+.container__02 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+
+.rodape__icone {
+    color: #FDFDFD;
+    font-family: var(--corpo);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.container__03 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.barra_azul {
+    background-color: #03658C;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+#botao___login {
+    border-radius: 3rem;
+    background: url(/assets/img/usuario.svg);
+    height: 4.075rem;
+    width: 11rem;
+}
