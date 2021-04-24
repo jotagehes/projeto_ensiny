@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/webfontkit-20210406-192131/stylesheet.css">
+    <title>Cadastro Ensiny</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img src="../projeto_ensiny/ensiny_home/assets/img/logo.svg" alt="Três Livro em estante " class="livros">
+        <div class="container__logo">
+            <span class="logo">ENSINY</span>
+            <ul class="menu__lista">
+                <li class="menu___item"><a href="#" class="menu__item--link">Home</a> </li>
+                <li class="menu___item"><a href="#" class="menu__item--link">Buscar</a> </li>
+                <li class="menu___item"><a href="#" class="menu__item--link">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="dados_cadasrais">Dados Cadastrais</h2>
+    <main class="geral">
+        <div class="cont_cadastrais">
+            <p>Nome</p>
+            <input type="text" class=" input2">
+            <p>Sobrenome</p>
+            <input type="text" class=" input2">
+            <p>Data de Nascimento</p>
+            <input type="date" class=" input2">
+            <p>E-mail</p>
+            <input type="email" class=" input2">
+            <p>Telefone Celular</p>
+            <input type="tel" class=" input2">
+            <p>Sexo</p>
+            <select class="sexo input2">
+                <option value="" >Selecione</option>
+                <option value="masc" >Masculino</option>
+                <option value="fem" >Feminino</option>
+                <option value="outro" >Outro</option>
+            </select>
+            <button class="botao__editar">Editar dados</button>
+        </div>
+
+        <div class="perfil_usuario">
+            <p>Foto de Perfil</p>
+            <img src="/assets/img/tia.svg" alt="Foto de perfil">
+            <button class="botao__editar">Alterar Foto</button>
+            <div class="exlusao_conta">
+                <h2 class="apagar__conta">Excluir Conta</h2>
+                <p> ATENÇÃO Todos os seus dados serão excluidos definitivamente e de maneira irrversivel.
+                </p>
+                <button class="excluir_conta">Excluir Dados</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
