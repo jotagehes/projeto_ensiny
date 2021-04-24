@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+    .livros {
+        display: none;
+    }
+
+    .container__logo {
+        flex-direction: column;
+    }
+
+    .logo {
+        align-self: center;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .mesa {
+        display: none;
+    }
+
+    .titulo__ferr {
+        font-size: 2rem;
+    }
+
+    .first {
+        background: url(../img/Design\ sem\ nome.png) no-repeat center;
+        display: block;
+        margin: 0 1.5rem;
+        padding-bottom: 0.2rem;
+        text-align: center;
+
+    }
+
+    .test {
+        width: 100%;
+    }
+
+    .texto__descricao {
+        font-size: 1.30rem;
+        text-align: none;
+    }
+
+    #frasesinha {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .mesa2 {
+        display: none;
+    }
+
+    .second {
+        background: url(../img/mesa2claro.png) no-repeat center;
+        display: block;
+        margin: 0 1.5rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .titulo__section {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .third {
+        background: url(../img/lousaclara.png) no-repeat center;
+        display: block;
+        margin: 0 1.5rem;
+    }
+
+    .lousa {
+        display: none;
+    }
+
+    .aprender__imagem {
+        width: 90%;
+    }
+
+    .divBusca {
+        margin: 0 0 0 1rem;
+        padding: 0;
+        width: 90%;
+    }
+
+    input::placeholder {
+        color: transparent;
+    }
+
+    .depoimentos__texto--box {
+        flex-direction: column;
+    }
+
+    .depoimentos__textos {
+        width: 90%;
+    }
+
+    .depoimentos__texto--box {
+        margin: 1.2rem;
+    }
+    .depoimentos__jua{
+        margin: 1rem 0 1rem 0 ;
+    }
+    .rodape{
+        height: 25rem;
+    }
+    .rodape__flex{
+        flex-direction: column;
+    }
+    .rodape__flex--logo{
+        margin-bottom: 1rem;
+        padding: 2rem 0 0 5rem ;
+    }
+    .container__01{
+        padding: 0 0 0 1rem;
+    }
+    .container__03{
+        display: none;
+    }
+    .container__02{
+        flex-direction: row;
+        padding:0 0 0 1rem ;
+    }
+}
