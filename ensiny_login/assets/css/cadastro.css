@@ -205,7 +205,7 @@ body {
 
 #botao___login {
     border-radius: 3rem;
-    background: url(/assets/img/usuario.svg);
+    background: url(../img/usuario.svg);
     height: 4.075rem;
     width: 11rem;
 }

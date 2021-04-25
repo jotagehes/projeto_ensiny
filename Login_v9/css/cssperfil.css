@@ -2,6 +2,7 @@ body {
     background-color: #E5E5E5;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -13,7 +14,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 60.5rem;
+    height: 42rem;
     width: 90.9rem;
     background: rgba(3, 101, 140, 0.16);
 }
