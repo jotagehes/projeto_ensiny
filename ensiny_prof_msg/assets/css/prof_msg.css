@@ -1,0 +1,194 @@
+
+.a1{
+
+    position: relative;
+    top: -75px;
+    height: 100px;
+ 
+    background-color: #03658C;
+}
+
+.primeiro{
+    position: relative;
+    top: 30px;
+    left: 160px;
+    width: 80%;
+    height: 130px;
+    background: rgba(2,101,140,0.2800000011920929);
+    opacity: 1;
+    margin-top: -40px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    overflow: hidden;
+
+}
+
+.segundo{
+    position: relative;
+    left: 160px;
+    width: 80%;
+    height: 130px;
+    background: rgba(2,101,140,0.2800000011920929);
+    opacity: 1;
+   margin-top: 60px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    overflow: hidden;
+
+
+}
+
+.terceiro{
+    position: relative;
+    left: 160px;
+    width: 80%;
+    height: 130px;
+    background: rgba(2,101,140,0.2800000011920929);
+    opacity: 1;
+   margin-top: 30px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    overflow: hidden;
+
+
+}
+.p1{
+    width: 60%;
+    height: 55px;
+    background: rgba(3,101,140,0.10000000149011612);
+    opacity: 1;
+    position: relative; 
+    top: -20px;
+    left: 180px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    overflow: hidden;
+  
+     
+  
+    
+   
+     
+    
+}
+.avatar{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+     .espaco{
+         display: flexbox;
+        position: relative;
+        
+        
+        height: 67px;
+    
+     }
+
+  
+     .msg{
+
+        position: relative;
+        left: 10px;
+      
+        
+         color: rgba(0,0,0,1);
+         
+         font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+   
+     }
+
+     .avatar_name{
+         position: relative;
+         left: 58px;
+         bottom: 129px;
+         font-size: 12px;
+        
+         color: rgba(0,0,0,1);
+         
+         font-family: Montserrat;
+         font-weight: bold;
+         
+        }
+
+        
+     .botao_iniciar{
+         position: relative;
+         left: 1160px;
+        top: 35px;
+        width: 280px;
+        height: 55px;
+         background: #03658C;
+      
+         color: rgba(254,255,254,1);
+      
+         font-family: Montserrat;
+         font-weight:550;
+        
+         opacity: 1;
+       
+         
+         border-color:#03658C;
+         border-top-left-radius: 36px;
+         border-top-right-radius: 36px;
+         border-bottom-left-radius: 36px;
+         border-bottom-right-radius: 36px;
+
+         
+         
+        
+}
+
+.horario{
+    position: absolute;
+    top: 85px;
+    left: 185px;
+
+  
+    color: rgba(150,150,150,1);
+    font-family: Montserrat;
+    font-weight:bold;
+    font-size: 11px;
+    opacity: 1;
+    
+}
+     
+.botao_responder{
+   
+        position: relative;
+        left: 1160px;
+       top: 35px;
+       width: 280px;
+       height: 55px;
+        background: #03658C;
+     
+        color: rgba(254,255,254,1);
+        border-color:#03658C;
+        font-family: Montserrat;
+        font-weight:550;
+       
+        opacity: 1;
+      
+        
+        
+        border-top-left-radius: 36px;
+        border-top-right-radius: 36px;
+        border-bottom-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+
+        
+        
+       
+
+}
