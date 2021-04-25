@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .rodape{
+        height: 25rem;
+    }
+    .rodape__flex{
+        flex-direction: column;
+    }
+    .rodape__flex--logo{
+        margin-bottom: 1rem;
+        padding: 2rem 0 0 5rem ;
+    }
+    .container__01{
+        padding: 0 0 0 1rem;
+    }
+    .container__03{
+        display: none;
+    }
+    .container__02{
+        flex-direction: row;
+        padding:0 0 0 1rem ;
+    }
+}
