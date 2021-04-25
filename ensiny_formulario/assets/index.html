@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Marcar Aula</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts/Pirou/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="container__logo">
+            <div class="vetorlogo">
+                <svg width="68" height="65" viewBox="0 0 68 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.705139" y="2.11533" width="16.2174" height="57.8187" rx="5" fill="#03658C" />
+                    <rect x="20.4481" y="2.11533" width="16.2174" height="57.8187" rx="5" fill="#B4B1B1" />
+                    <rect x="37.3706" y="4.19739" width="16.2174" height="57.8187" rx="5"
+                        transform="rotate(-15 37.3706 4.19739)" fill="#B4B1B1" />
+                    <rect y="62.0492" width="67.6901" height="2.82042" fill="#C4C4C4" />
+                </svg>
+
+            </div>
+            <span class="logo">ENSINY</span>
+            <ul class="menu__lista">
+                <li class="menu___item"><a href="#" class="menu__item--link">Home</a> </li>
+                <li class="menu___item"><a href="#" class="menu__item--link">Buscar</a> </li>
+                <li class="menu___item"><a href="#" class="menu__item--link">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div>
+            <img class="avatar" src="./img/avatar.svg" alt="avatar">
+        </div>
+        <div>
+
+            <div class="marcar">
+                <h2>Marque sua aula com Larissa</h2>
+            </div>
+            <form>
+                <section>
+                    <div class="informacoes">
+                        <h2 class="tituloinfo"> Conte-nos o que você deseja aprender em suas aulas</h2>
+                        <div class="textarea">
+                            <textarea rows="6" id="aprender" name="aprender"></textarea>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="tipo">
+
+                        <h2 class="tituloinfo"> Como deseja ter suas aulas? </h2>
+                        <div class="botoes">
+                            <button class="botao" id="online">Online</button>
+                            <button class="botao" id="presencial">Presencial</button>
+                        </div>
+                    </div>
+                </section>
+                
+                    <div class="dados">
+                        <h3>Dados de contato</h3>
+
+                        <h2 class="tituloinfo"> E-mail </h2>
+                        <input class="dados_contatos" type="email" name="email" id="email"
+                            placeholder="exemplo@email.com" required>
+                        <h2 class="tituloinfo"> Telefone </h2>
+                        <input class="dados_contatos" type="tel" name="telefone" id="telefone"
+                            placeholder="(11) 99999 - 9999" required >
+                    </div>
+                
+                <button class="btn" type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__flex">
+            <div class="rodape__flex--logo"> ENSINY</div>
+            <div class="container__01">
+                <a href="#" class="rodape__icone">SOBRE</a>
+                <a href="#" class="rodape__icone">QUEM SOMOS</a>
+                <a href="#" class="rodape__icone">VALORES</a>
+                <a href="#" class="rodape__icone">POLÍTICA DE PRIVACIDADE</a>
+            </div>
+            <div class="container__02">
+
+                <a href="#" class="rodape__icone">SUPORTE</a>
+                <a href="#" class="rodape__icone">AJUDA</a>
+                <a href="#" class="rodape__icone">CONTATO</a>
+            </div>
+            <div class="container__03">
+                <span class="rodape__icone">SIGA-NOS</span>
+                <img src="./img/Icones.png" alt="Ícones de rede socias" style="padding-top: 0.75rem;">
+                <img src="./img/google-play-badge.png" alt="" width="175rem" style="padding-top: 1rem;">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

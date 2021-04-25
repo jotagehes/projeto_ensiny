@@ -1,0 +1,167 @@
+.avatar{
+    width: 368px;
+    height: 405px;
+    left: 77px;
+    top: 96px;
+    margin: 3rem 4rem;
+
+}
+
+body{
+    background-color: #ffff;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-family: 'Montserrat';
+    background-color: #c5dce5;
+    font-size: 1.4em;
+    color: #03658c;
+    height: 3.5rem;
+    width: 10rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.botoes{
+    display: flex;
+    width: 20rem;
+}
+
+.btn{
+    font-family: 'Montserrat';
+    border-radius: 36px;
+    background-color: #03658c;
+    font-size: 1.4em;
+    position: absolute;
+    color: #e5e5e5;
+    width: 267px;
+    height: 54px;
+    left: 948px;
+    top: 679px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 30rem;
+}
+
+.btn:focus{
+    outline: 0;
+    
+}
+
+.botao:hover{
+    color: #03658c;
+    background-color: #E0EEEE;
+    transform: scale(1.2);
+}
+
+.dados{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 411px;
+    height: 178px;
+    left: 536px;
+    top: 364px;
+    padding-top: 2rem;
+}
+
+.dados_contatos{
+    border-radius: 1rem;
+    border: none;
+    background-color: #c5dce5;  
+    height: 15rem;
+    
+}
+
+#email{
+    height: 15rem;
+}
+
+
+.informacoes {
+    
+    font-family: 'Montserrat'; 
+    width: 612px;
+    height: 165px;
+    left: 528px;
+    top: 75px;
+   
+}
+
+main {
+    display: flex;
+    margin: 5rem 5rem;
+    padding-left: 15rem;
+}
+
+
+textarea{
+    border-radius: 36px;
+    background-color: #c5dce5;
+    border: none;
+    width: 30rem;
+    resize: none;
+    height: 6rem;
+
+}
+
+
+
+.marcar{
+    margin: 1.5rem ;
+    margin-left: 0;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    width: 365px;
+    height: 28px;
+    left: 526px;
+    top: 29px;
+
+    
+}
+
+#online{
+    border-radius: 2rem 0 0 2rem;
+}
+
+#presencial{
+    border-radius: 0 2rem 2rem 0;
+    margin-left: 0;
+}
+
+
+
+.tituloinfo{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+   
+
+
+.tipo{
+    font-family: 'Montserrat';
+    width: 374px;
+    height: 4rem;
+    left: 533px;
+    top: 246px;
+}
+
+#telefone{
+    text-align: center;
+    width: 15rem;
+
+}
+
+
+
