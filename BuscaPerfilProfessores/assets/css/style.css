@@ -1,0 +1,79 @@
+body {
+    font-family: 'montserrat';
+}
+
+
+.form {
+    background: #c5dce5;
+    width: 40rem;
+    margin-left: 20rem;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.pesquisa_buscar {
+    height: 3rem;
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    width: 50rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem
+
+
+}
+
+.botao_buscar {
+    background: #03658C;
+    font-family: 'montserrat';
+    color: white;
+    height: 3rem;
+    width:11rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.mais_professores {
+    background-color: #03658C;
+    font-family:'montserrat';
+    font-size: 1rem;
+    color: white;
+    height: 3rem;
+    width: 20rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 28rem;
+    border: none;
+    border-radius: 5rem;
+
+}
+
+
+
+main {
+    text-align: center;
+    margin: 0 auto 70px auto;
+    width: 100%;
+    margin-bottom: 0.6rem;
+    padding: 0.5rem zg;
+    margin-top: 0.7rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5remp;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    grid-gap: 3rem;
+}

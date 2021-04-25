@@ -1,0 +1,40 @@
+.cabecalho {
+    height: 10rem;
+}
+.livros {
+    display: flex;
+    float: left;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+}
+.container__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+
+}
+
+.logo {
+    font-family: pirou;
+    color: var(--azul);
+    font-family: var(--lo);
+    font-size: 3rem;
+    font-weight: 500;
+    padding-left: 2.5rem;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.menu__item--link {
+    color: var(--azul);
+    font-family: var(--corpo);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1.5rem;
+
+}
