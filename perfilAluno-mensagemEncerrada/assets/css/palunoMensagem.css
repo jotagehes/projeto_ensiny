@@ -1,0 +1,73 @@
+:root {
+    --azul: #03658C;
+    --corpo: 'Montserrat', sans-serif;
+    --cortexto: #5B5B5B;
+    --cortitulo: #373737;
+    --logo: 'pirouregular';
+}
+.navMenu{
+    background: var(--azul);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    font-family: var(--corpo);
+    border: none;
+    height: 3rem;
+    border-radius: 2rem;
+    width: 10rem;
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 1.022rem;
+}
+.navMenu__botao{
+    margin-top: 2rem;
+}
+#botao_geral{
+    margin: 2rem;
+    border-radius: 2rem 2rem 0 0;
+}
+#botao_mensagens{
+    background: white;
+    border-radius: 2rem 2rem 0 0;
+}
+.foto__perfil{
+    width: 5rem;
+    margin:1.5rem;
+}
+.mensagem{
+    background: #D5D5D5;
+    width: 90%;
+    height: 10rem;
+    margin: 4rem 5%;
+    border-radius: 3rem;
+    display: flex;
+}
+.mensagem_enviada{
+    font-family: var(--corpo);
+    font-weight: 600;
+    background: #BCBCBC;
+    width: 55%;
+    border-radius: 3rem;
+    padding: 1rem;    
+    height: 4.5rem;
+    margin-top: 2.5rem;
+}
+.botoes__mensagem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.botao_opcao{
+    background:#979797 ;
+    color: #FFFFFF;
+    height: 3.5rem;
+    width: 100%;
+}
+#botao__historico{
+    margin: 1rem 1rem 1rem 3rem;
+}
+#botao__avaliacao{
+    margin: 1rem 1rem 1rem 3rem;
+}
