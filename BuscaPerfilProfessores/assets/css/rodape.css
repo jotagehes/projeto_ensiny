@@ -1,0 +1,36 @@
+.rodape{
+    background: rgba(3, 101, 140, 0.8);
+    height: 12rem;
+    width: 100vw;
+}
+.rodape__flex{
+    display: flex;
+}
+.rodape__flex--logo{
+    color: #FFFFFF;
+    font-family: var(--logo);
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 4rem 2.5rem 2.5rem 10rem;
+}
+.container__01{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+.container__02{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+.container__03{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+.rodape__icone{
+    color: #FDFDFD;
+    font-family: var(--corpo);
+    font-weight: 600;
+    padding: 1rem;
+}
