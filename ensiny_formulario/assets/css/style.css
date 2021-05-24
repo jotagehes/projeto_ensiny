@@ -70,7 +70,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 411px;
-    height: 178px;
+    height: 14rem;
     left: 536px;
     top: 364px;
     padding-top: 2rem;
@@ -82,9 +82,11 @@ body{
     background-color: #c5dce5;  
     height: 15rem;
     
+    
 }
 
 #email{
+    font-family: 'Montserrat';
     height: 15rem;
 }
 
@@ -131,6 +133,9 @@ textarea{
     
 }
 
+
+
+
 #online{
     border-radius: 2rem 0 0 2rem;
 }
@@ -158,6 +163,7 @@ textarea{
 }
 
 #telefone{
+    font-family: 'Montserrat';
     text-align: center;
     width: 15rem;
 
