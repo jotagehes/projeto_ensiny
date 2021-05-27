@@ -4,9 +4,20 @@ const routes = Router()
 
 routes
     .get('/pessoas/:id', PessoasController.getOne)
-    .post('/pessas', PessoasController.insert)
+    .post('/pessoas/:id', PessoasController.insert)
     .delete('/pessoas/:id', PessoasController.delete)
     .patch('/pessoas/:id', PessoasController.update)
-
+    .get('/professor/:id', ProfessorController.getOne)
+    .post('/professor/:id', ProfessorController.insert)
+    .delete('/professor/:id', ProfessorController.delete)
+    .patch('/professor/:id', ProfessorController.update)
+    .get('/avaliacao/:id', AvaliacaoController.getOne)
+    .post('/avaliacao/:id', AvaliacaoController.insert)
+    .delete('/avaliacao/:id', AvaliacaoController.delete)
+    .patch('/avaliacao/:id', AvaliacaoController.update)
+    .get('/termo/:id', TermoController.getOne)
+    .post('/termo/:id', TermoController.insert)
+    .delete('/termo/:id', TermoController.delete)
+    .patch('/termo/:id', TermoController.update)
 
 module.exports = routes
