@@ -1,8 +1,8 @@
 const express = require('express')
 const routes = require('./routes/routes')
 const app = express()
-const swaggerUi = require('swagger-ui-express')
-const swaggerFile = require('./swagger_arquivo.json')
+// const swaggerUi = require('swagger-ui-express')
+// const swaggerFile = require('./swagger_arquivo.json')
 
 app.use(express.urlencoded({
     extended: false

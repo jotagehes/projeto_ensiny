@@ -1,8 +1,14 @@
-const { Router } = require('express')
-const PessoasController = require('../controllers/PessoasController')
+const {
+    Router
+} = require('express')
+const PessoasController = require('../controllers/PessoaController')
+const ProfessorController = require('../controllers/ProfessorController')
+const AvaliacaoController = require('../controllers/AvalicaoController')
+const TermoController = require('../controllers/TermoController')
 const routes = Router()
 
 routes
+    .get('/pessoas/:id', PessoasController.getAll)
     .get('/pessoas/:id', PessoasController.getOne)
     .post('/pessoas/:id', PessoasController.insert)
     .delete('/pessoas/:id', PessoasController.delete)
@@ -11,10 +17,8 @@ routes
     .post('/professor/:id', ProfessorController.insert)
     .delete('/professor/:id', ProfessorController.delete)
     .patch('/professor/:id', ProfessorController.update)
-    .get('/avaliacao/:id', AvaliacaoController.getOne)
+    .get('/avaliacao/:id', AvaliacaoController.buscaAvalicao)
     .post('/avaliacao/:id', AvaliacaoController.insert)
-    .delete('/avaliacao/:id', AvaliacaoController.delete)
-    .patch('/avaliacao/:id', AvaliacaoController.update)
     .get('/termo/:id', TermoController.getOne)
     .post('/termo/:id', TermoController.insert)
     .delete('/termo/:id', TermoController.delete)

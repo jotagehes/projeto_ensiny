@@ -1,8 +1,11 @@
-const { Pessoa, sequelize } = require('../models')
+const {
+    Pessoa,
+    Sequelize
+} = require('../models')
 const Op = Sequelize.Op
 
 class PessoasController {
-    static async buscasPessoas(req, res) {
+    static async getAll(req, res) {
         try {
             const pessoa = await Pessoa.findALL()
             return res.status(200).json(pessoas)
@@ -13,7 +16,7 @@ class PessoasController {
         }
     }
 
-    static async inserirpessoa(req, res) {
+    static async insert(req, res) {
         try {
             const novaPessoa = await Pessoa.create(req.body)
             return res.status(201).json(novaPessoa)
@@ -25,7 +28,7 @@ class PessoasController {
 
     }
 
-    static async alterarPessoa(req, res) {
+    static async update(req, res) {
         try {
             const alterarPessoa = await Pessoa.findByPk(req.body.id)
             if (!alterarPessoa) {
@@ -44,7 +47,7 @@ class PessoasController {
         }
     }
 
-    static async excluirPessoa(req, res) {
+    static async delete(req, res) {
         try {
             const excluirPessoa = await Pessoa.findByPk(req.body.id)
             if (!exlcuirPessoa) {
@@ -59,8 +62,10 @@ class PessoasController {
 
         }
     }
-    static async encontrarPessoa(req, res) {
-        const { id } = req.params
+    static async getOne(req, res) {
+        const {
+            id
+        } = req.params
         try {
             const pessoa = await Pessoa.findOne({
                 where: {

@@ -92,4 +92,4 @@ class ProfessorController {
         }
     }
 }
-module.exports = new ProfessorController()
+module.exports = ProfessorController
